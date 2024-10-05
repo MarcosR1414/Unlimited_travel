@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alojamiento"
+    tools:context=".Alojamientos">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_marginEnd="-121dp"
+        android:background="#70FFFFFF" />
+    <ImageView
+        android:id="@+id/atrass1"
+        android:layout_width="64dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/atrass" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_alojamientos"
+            android:layout_width="173dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Alojamientos"
+            android:textColor="#000000"
+            android:textSize="23sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="496dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="0dp"
+
+
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="1dp">
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/hotel_imagen1"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hotel1" />
+
+            <TextView
+                android:id="@+id/hotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Sheraton Lima Historic Center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paseo de la Republica 170 Lima, Peru" />
+
+
+            <TextView
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1 habitacion - 1 adulto" />
+
+            <ImageView
+                android:id="@+id/hotel_imagen2"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hotel2" />
+            <TextView
+                android:id="@+id/hotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tucan Suites Aparthotel"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jr.01 de abril 315 , tarapoto" />
+            <TextView
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1 habitacion - 2 adulto" />
+
+            <ImageView
+                android:id="@+id/hotel_imagen3"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hotel3" />
+
+            <TextView
+                android:id="@+id/hotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Casona valdelirios"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jr.28 de Julio 720, Ayacucho" />
+            <TextView
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1 habitacion -  2 adultos" />
+
+
+
+            <ImageView
+                android:id="@+id/hotel_imagen4"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/terrazasincas" />
+            <TextView
+                android:id="@+id/hotel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                    android:text="Motto by Hilton Cusco"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calle Ruinas 502, Esq. Av Tullumayu, Cusco, Peru" />
+            <TextView
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1 habitacion -  2 adultos" />
+
+
+            <ImageView
+                android:id="@+id/hotel_imagen5"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hotel5" />
+            <TextView
+                android:id="@+id/hotel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Grand Hotel Huánuco"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jr. Dámaso Beraún 775, Huánuco" />
+            <TextView
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1 habitacion -  2 adultos" />
+
+
+
+            <ImageView
+                android:id="@+id/hotel_imagen6"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hotel6" />
+            <TextView
+                android:id="@+id/hotel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Shushupe Hotel"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Av. Alameda Perú 362, Tingo María" />
+            <TextView
+                android:id="@+id/num6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1 habitacion -  2 adultos" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

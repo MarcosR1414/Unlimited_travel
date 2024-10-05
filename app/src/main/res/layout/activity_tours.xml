@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo32"
+    tools:context=".Tours">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_marginEnd="-121dp"
+        android:background="#99FFFFFF" />
+    <ImageView
+        android:id="@+id/atrass2"
+        android:layout_width="64dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/atrass" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_tours"
+            android:layout_width="173dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Tours"
+            android:textColor="#000000"
+            android:textSize="23sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="496dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="0dp"
+
+
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="1dp">
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/tours_imagen1"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tours1" />
+
+            <TextView
+                android:id="@+id/hotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Excursion a Machu Picchu de un dia desde cusco"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aprende la historia detras de la ciudad sagrada en una visita guiada" />
+
+
+            <TextView
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="14 horas" />
+
+            <ImageView
+                android:id="@+id/tours_imagen2"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tours2" />
+            <TextView
+                android:id="@+id/hotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Visita a los lobos marinos de las Islas Palomino"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Una experiencia envolvente diseñada para los amantes de la naturaleza" />
+            <TextView
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="2 Horas 30 minutos" />
+
+            <ImageView
+                android:id="@+id/tours_imagen3"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tours3" />
+
+            <TextView
+                android:id="@+id/hotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="8dp"
+                android:text="Camine hasta la cumbre de la Montaña Arcoiris con un guia"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Montaña Arcoiris en un dia desde Cusco" />
+            <TextView
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="12 Horas" />
+
+
+
+            <ImageView
+                android:id="@+id/tours_imagen4"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tours4" />
+            <TextView
+                android:id="@+id/hotel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Paracas y Huacachina desde Lima"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Podra admirar leones marinos, focas y raras especies de aves en su entorno natural." />
+            <TextView
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="10 Horas" />
+
+
+            <ImageView
+                android:id="@+id/tours_imagen5"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tours5" />
+            <TextView
+                android:id="@+id/hotel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tours Iquitos"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esta actividad es muy vivencial y de mucho contacto con la naturaleza. Y observar flora y fauna, navegar por el majestuoso río Amazonas." />
+            <TextView
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1 dia" />
+
+
+
+            <ImageView
+                android:id="@+id/tours_imagen6"
+                android:layout_width="match_parent"
+                android:layout_height="80pt"
+                android:layout_marginTop="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tours6" />
+            <TextView
+                android:id="@+id/hotel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tours lago titicaca"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ubicacion6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En el Lago Titicaca están las fascinantes islas flotantes en donde habita una tribu llamada Los Uros. En estas pequeñas islas los visitantes son muy bien recibidos." />
+            <TextView
+                android:id="@+id/num6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="2 dias" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

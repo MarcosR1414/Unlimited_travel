@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "418804451422",
+    "project_id": "baseperfil-54c84",
+    "storage_bucket": "baseperfil-54c84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418804451422:android:66d89d0b37cb190745cccf",
+        "android_client_info": {
+          "package_name": "com.example.mafic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSWFG2QGiljkoLRYtGxxO4DBWNExy4wMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418804451422:android:e0ffa29b7d4bdda245cccf",
+        "android_client_info": {
+          "package_name": "com.example.mafic.Activity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSWFG2QGiljkoLRYtGxxO4DBWNExy4wMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
